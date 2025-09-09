@@ -1,0 +1,276 @@
+(footprint "TPS7A2133BPYWDJ"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.21 -1.16 0)
+		(layer "F.SilkS")
+		(uuid "aac73ae5-266a-4459-874c-d07f2e8af7a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPS7A2133BPYWDJ"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "2e1b0de7-f181-4f94-ba08-243eb2d47bc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Texas Instruments:TPS7A2133BPYWDJ"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1dc2d1e7-8b86-4cca-9852-b2c43914488a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/gpn/tps7a21"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84896c74-e846-4e3b-a2de-222cf4bd9c16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LDO Voltage Regulators 500-mA low-noise ul tra-low-IQ high-PSRR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe5cd578-0ef9-4e01-a7d4-38ff21181f71")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.32 0.325)
+		(end -0.32 0.155)
+		(stroke
+			(width 0.08)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3cbd71b5-625f-4064-aa9c-c641d34f9b5c")
+	)
+	(fp_line
+		(start -0.15 0.325)
+		(end -0.32 0.325)
+		(stroke
+			(width 0.08)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "afbd740b-bd37-45d6-aa90-6fbef74fa157")
+	)
+	(fp_line
+		(start 0.15 -0.315)
+		(end 0.32 -0.315)
+		(stroke
+			(width 0.08)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1870f078-e85a-43d2-92ea-d21d2901388c")
+	)
+	(fp_line
+		(start 0.15 0.325)
+		(end 0.32 0.325)
+		(stroke
+			(width 0.08)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "69a4a32c-5700-4e59-8dff-1ed46dfe84eb")
+	)
+	(fp_line
+		(start 0.32 -0.315)
+		(end 0.32 -0.145)
+		(stroke
+			(width 0.08)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2d0531eb-9ff7-4cc0-8fd3-842cfcde6cb8")
+	)
+	(fp_line
+		(start 0.32 0.325)
+		(end 0.32 0.155)
+		(stroke
+			(width 0.08)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6a0d2de0-d547-4fd6-8d7a-497ce570de02")
+	)
+	(fp_circle
+		(center -0.3 -0.295)
+		(end -0.29 -0.295)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0d1830af-dffa-4024-9309-a95e7aa46d5f")
+	)
+	(fp_line
+		(start -0.45 -0.445)
+		(end 0.45 -0.445)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b6771e2-2113-4ad8-a258-3ae30a39f719")
+	)
+	(fp_line
+		(start -0.45 0.455)
+		(end -0.45 -0.445)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "653c626a-6f58-4a8e-b858-5646a8a3c600")
+	)
+	(fp_line
+		(start 0.45 -0.445)
+		(end 0.45 0.455)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2215cf5-6035-4a38-a4fc-02010bb05275")
+	)
+	(fp_line
+		(start 0.45 0.455)
+		(end -0.45 0.455)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2bfc4cce-1c32-4d96-aa6f-2015c7a2d275")
+	)
+	(fp_line
+		(start -0.3 0)
+		(end -0.3 0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8447329d-e604-4d06-bb97-f1065d62e632")
+	)
+	(fp_line
+		(start -0.3 0.3)
+		(end 0.3 0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "597e8026-ae96-4ba0-9756-c8b936c66113")
+	)
+	(fp_line
+		(start 0 -0.3)
+		(end -0.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "76c9a5db-6e46-4076-9850-7857f720acd7")
+	)
+	(fp_line
+		(start 0.3 -0.3)
+		(end 0 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6641a5c8-3089-494c-a230-39cb9a70cb84")
+	)
+	(fp_line
+		(start 0.3 0.3)
+		(end 0.3 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "802cc467-5c11-4eeb-b1c9-8cf10b79e5f7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "68b23b87-24bb-4f60-9535-ccfd2b5dacb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A1" smd roundrect
+		(at -0.175 -0.175)
+		(size 0.165 0.165)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.303030303)
+		(uuid "f18b26f1-dc1f-4100-a3ad-9c3c4050c8b2")
+	)
+	(pad "A2" smd roundrect
+		(at 0.175 -0.175)
+		(size 0.165 0.165)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.303030303)
+		(uuid "bbdab28f-7f97-4c2d-b1de-3e1335e990cb")
+	)
+	(pad "B1" smd roundrect
+		(at -0.175 0.175)
+		(size 0.165 0.165)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.303030303)
+		(uuid "584448e1-f0d2-40ce-9e63-4824fe7d8f2d")
+	)
+	(pad "B2" smd roundrect
+		(at 0.175 0.175)
+		(size 0.165 0.165)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.303030303)
+		(uuid "d7a9a01e-09e3-4ea7-83fd-c6cabec46514")
+	)
+	(model "${KIPRJMOD}/TheArled-s-KiCad-Library/3d_models/TPS7A2133BPYWDJ.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
