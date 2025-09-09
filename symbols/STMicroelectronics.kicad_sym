@@ -14,8 +14,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TS472IQT"
+			(at -0.254 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
