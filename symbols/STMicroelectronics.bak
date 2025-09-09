@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "STMicroelectronics:TS472IQT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ts472.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Microphone Preamplifiers Microphone Preamp Lo Noise"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TS472IQT_0_1"
+		(symbol "TS472IQT_1_1"
 			(rectangle
 				(start -10.16 15.24)
 				(end 8.89 -15.24)
@@ -58,11 +58,9 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "TS472IQT_1_1"
 			(pin no_connect line
 				(at -12.7 13.97 0)
 				(length 2.54)
