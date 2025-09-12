@@ -1,8 +1,10 @@
-(footprint "BLM18AG121SN1D"
+(footprint "GRM188Z71A475ME15D"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7 uF 10 VDC 20% 0603 X7R")
+	(tags "Capacitor")
 	(property "Reference" "REF**"
 		(at 0 -0.8 0)
 		(unlocked yes)
@@ -15,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "BLM18AG121SN1D"
+	(property "Value" "GRM188Z71A475ME15D"
 		(at 0 1.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -28,7 +30,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.mouser.it/datasheet/3/76/1/ENFA0003.pdf"
+	(property "Datasheet" "https://www.mouser.it/datasheet/3/76/1/GRM188Z71A475ME15-01A.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -41,7 +43,7 @@
 			)
 		)
 	)
-	(property "Description" "Ferrite Beads 120 OHM 25% Alternate Sizing Guide Below"
+	(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7 uF 10 VDC 20% 0603 X7R"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -56,64 +58,44 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.3 0)
-		(end -0.125 0)
+		(start -0.1 -0.25)
+		(end -0.1 0.25)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "3cb226a8-f8f3-488e-ac4d-fe9a0b9e99e9")
+		(uuid "edbfea3f-4be8-4f23-8e81-a03c2737ac70")
 	)
 	(fp_line
-		(start -0.2 0.2)
-		(end 0 -0.3)
+		(start -0.1 0)
+		(end -0.3 0)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "dd33bcc1-137b-485a-9054-77a06e90f3eb")
+		(uuid "a69102af-8e57-499e-9f18-73c01a769d71")
 	)
 	(fp_line
-		(start 0 -0.3)
-		(end 0.2 -0.2)
+		(start 0.1 -0.25)
+		(end 0.1 0.25)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "1c799c24-7325-49af-92e3-c8c85443aae0")
+		(uuid "0b54173b-9550-493b-82ec-0236514590df")
 	)
 	(fp_line
-		(start 0 0.3)
-		(end -0.2 0.2)
+		(start 0.1 0)
+		(end 0.3 0)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "65efcbce-6e5a-438c-8cbd-9ed00945f103")
-	)
-	(fp_line
-		(start 0.2 -0.2)
-		(end 0 0.3)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "8722ba4c-b1ed-47cf-93fd-0e5ec58145f8")
-	)
-	(fp_line
-		(start 0.3 0)
-		(end 0.125 0)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "d963f44a-d57c-41d1-827b-168b9af87262")
+		(uuid "2d545d99-075d-4f42-84b6-ae6e266ccb87")
 	)
 	(fp_rect
 		(start -1 -0.6)
@@ -153,7 +135,7 @@
 		(uuid "06d9527e-d101-4faf-848d-d2cb9a7be473")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/TheArled-s-KiCad-Library/3d_models/BLM18AG121SN1D.step"
+	(model "${KIPRJMOD}/TheArled-s-KiCad-Library/3d_models/GRM188Z71A475ME15D.step"
 		(offset
 			(xyz 0 0 0)
 		)

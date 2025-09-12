@@ -1,0 +1,215 @@
+(footprint "CX3225SA25000H0GSSC1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.8 0 90)
+		(layer "F.SilkS")
+		(uuid "dd271a45-4a77-4038-974c-fc8020cd80dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CX3225SA25000H0GSSC1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "72ae00be-1df6-4720-a886-895b61b19360")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ele.kyocera.com/assets/products/crystal-device/cx3225sa_e.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de03f310-194e-49b7-908d-4755cc310e13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Crystals 25000kHz 12pF AEC-Q2 00 ESR=50mOhms"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b34103d8-c32b-4658-ad2d-092ff10ca063")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.05 0)
+		(end -1.05 0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e9dd812b-b772-461c-907b-ecf494eceaf9")
+	)
+	(fp_line
+		(start -0.35 -0.15)
+		(end -0.35 0.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8ba2e8ae-c8bb-4321-8f98-3a37036543ee")
+	)
+	(fp_line
+		(start -0.35 0)
+		(end -1.05 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e68101e-c150-4b15-a3b8-0f1a3602ffad")
+	)
+	(fp_line
+		(start 0.35 -0.15)
+		(end 0.35 0.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c004ccb7-effb-4160-843a-6abff424f461")
+	)
+	(fp_line
+		(start 0.35 0)
+		(end 1.1 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1d4935af-18d6-44e6-b9a1-6666b4135c97")
+	)
+	(fp_line
+		(start 1.1 0)
+		(end 1.1 -0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "58a8eadd-b6cb-4632-bd0a-e5537ee39319")
+	)
+	(fp_rect
+		(start -0.2 -0.4)
+		(end 0.2 0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cb58a66b-1260-4545-8f00-03e02f42ff29")
+	)
+	(fp_rect
+		(start -2.05 -1.7)
+		(end 2.05 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "cd67d9a7-f9f1-4332-a94c-d5e73a98eabc")
+	)
+	(fp_line
+		(start -2.05 -1.7)
+		(end 2.05 -1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4837aa42-9680-4e7d-acc5-dca3217be4c5")
+	)
+	(fp_line
+		(start -2.05 1.7)
+		(end -2.05 -1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d0894a5b-3ce7-4c7e-8b6d-cb32414ee159")
+	)
+	(fp_line
+		(start 2.05 -1.7)
+		(end 2.05 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0982903e-60b2-4ca6-aa54-2cf4408efa7a")
+	)
+	(fp_line
+		(start 2.05 1.7)
+		(end -2.05 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f54fbfa-5624-40f3-8ce6-ad7d4fc9c545")
+	)
+	(pad "1" smd rect
+		(at -1.075 0.925)
+		(size 1.45 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "d00a13e5-e696-4548-89b6-e8d18f8148a8")
+	)
+	(pad "2" smd rect
+		(at 1.075 0.925)
+		(size 1.45 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "da2c3727-e373-462d-9f60-57ca93c049a1")
+	)
+	(pad "3" smd rect
+		(at 1.075 -0.925)
+		(size 1.45 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "622702f1-00da-47f8-838c-364924f947b8")
+	)
+	(pad "4" smd rect
+		(at -1.075 -0.925)
+		(size 1.45 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "ef38e275-1362-4e51-aa73-6e508453ea23")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/TheArled-s-KiCad-Library/3d_models/CX3225SA25000H0GSSC1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
