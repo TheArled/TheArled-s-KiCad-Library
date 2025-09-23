@@ -1,0 +1,196 @@
+(footprint "ACS37041"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ACS37041KLHBLT-030B3")
+	(property "Reference" "REF**"
+		(at -2.5 0 90)
+		(layer "F.SilkS")
+		(uuid "a00bea54-9650-4982-a0e4-9001be408eb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ACS37041"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4ca9dc15-7ef2-4593-8c5a-736920512ba2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.it/datasheet/3/3802/1/ACS37041-2-Datasheet.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1566dbc0-251f-481d-91b2-385e48d18bd1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Board Mount Current Sensors CURRENT SENSOR IN SOT23-W LH-5 PACKAGE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "007a9e6b-b388-4201-ac2b-9191544ced37")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -1.2)
+		(end 1.55 -1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7fa0b988-ad74-4916-93bf-24cd2c1d5408")
+	)
+	(fp_line
+		(start -1.6 0.4)
+		(end -1.6 -1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eb37a457-b528-4c92-a25e-28dd5bb571fe")
+	)
+	(fp_line
+		(start -0.8 1.2)
+		(end -1.6 0.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3acdb79c-1b2c-4e31-9238-0177fab26868")
+	)
+	(fp_line
+		(start 1.55 -1.2)
+		(end 1.55 1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "37d65784-74f5-40bb-b789-e37d56724daa")
+	)
+	(fp_line
+		(start 1.55 1.2)
+		(end -0.8 1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8733d796-1346-417d-be38-94dde82eb1c5")
+	)
+	(fp_line
+		(start -1.75 -1.95)
+		(end 1.7 -1.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9677693b-7dc4-4aa7-8694-e5468a989aa6")
+	)
+	(fp_line
+		(start -1.75 1.95)
+		(end -1.75 -1.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7d8e04a1-098c-44f5-9c7a-0846911b5fbb")
+	)
+	(fp_line
+		(start 1.7 -1.95)
+		(end 1.7 1.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e150fff-fb70-480d-baab-4b0398d7f5dd")
+	)
+	(fp_line
+		(start 1.7 1.95)
+		(end -1.75 1.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8765b78b-01bb-48ad-9679-6e3bc3e37390")
+	)
+	(pad "1" smd roundrect
+		(at -0.95 1.2)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.07142857143)
+		(thermal_bridge_angle 45)
+		(uuid "4de21107-9133-42a2-989b-f76b96d551c5")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 1.2)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.07142857143)
+		(thermal_bridge_angle 45)
+		(uuid "82486450-19af-4103-aa9e-90ada7690dd1")
+	)
+	(pad "3" smd roundrect
+		(at 0.95 -1.2)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.07142857143)
+		(thermal_bridge_angle 45)
+		(uuid "80ae050e-a681-43e5-82fe-f40a09bf40fa")
+	)
+	(pad "4" smd roundrect
+		(at 0 -1.2)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "B.SilkS" "F.Paste")
+		(roundrect_rratio 0.07142857143)
+		(thermal_bridge_angle 45)
+		(uuid "e631454f-8491-4c6c-817e-8bf9455e7d6c")
+	)
+	(pad "5" smd roundrect
+		(at -0.95 -1.2)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.07142857143)
+		(thermal_bridge_angle 45)
+		(uuid "62cf23b6-f73f-483b-902c-e0e8c170f826")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/TheArled-s-KiCad-Library/3d_models/ACS37041.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
