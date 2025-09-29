@@ -304,10 +304,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 1.27 -17.78 90)
 				(length 2.54)
-				(name ""
+				(name "DAP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -505,7 +505,7 @@
 			(pin tri_state line
 				(at 19.05 -11.43 180)
 				(length 2.54)
-				(name "HW_SW_C/TRL"
+				(name "HW_SW_CTRL"
 					(effects
 						(font
 							(size 1.27 1.27)
