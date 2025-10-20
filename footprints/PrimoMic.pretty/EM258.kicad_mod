@@ -1,0 +1,134 @@
+(footprint "EM258"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.53 5.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "94af39c8-76e7-487b-8bfb-cd8dc8ff8ea9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EM258"
+		(at -0.53 7.31 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fd5a639e-e94d-4749-ba30-c8017722765d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bc2cfc7-0462-42ac-a89a-78ab16e53eea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b2f1d3b-d83b-4105-8651-68fe1b9faff2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e0f912cb-3a2f-4022-a665-7bb04cad5b81")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "153474d5-0581-4997-a7e3-5dc52fc5a595")
+	)
+	(fp_poly
+		(pts
+			(xy 0.8 -1.8) (xy 1.1 -1.8) (xy 1.1 -1.4) (xy 1.5 -1.4) (xy 1.5 -1.1) (xy 1.1 -1.1) (xy 1.1 -0.7)
+			(xy 0.8 -0.7) (xy 0.8 -1.1) (xy 0.4 -1.1) (xy 0.4 -1.4) (xy 0.8 -1.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9ca89e72-8e34-47a7-9bde-c9f1578ec6c4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.53 8.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "da5512eb-54db-4851-93cf-ebd14e3397d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.85 0.7)
+		(size 1.3 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.01)
+		(chamfer_ratio 0.2)
+		(chamfer bottom_left)
+		(uuid "4fefecdf-6a5c-4ba8-aa42-a4e8f05c64b9")
+	)
+	(pad "2" smd roundrect
+		(at 0.85 0.7)
+		(size 1.3 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.01)
+		(chamfer_ratio 0.2)
+		(chamfer bottom_right)
+		(uuid "2c626fa2-31ae-47da-adfc-059225a40aa0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/TheArled-s-KiCad-Library/3d_models/EM258.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
