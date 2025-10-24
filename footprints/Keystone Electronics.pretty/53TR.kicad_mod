@@ -143,9 +143,9 @@
 	)
 	(pad "1" smd roundrect
 		(at 0 -6.425)
-		(size 5.08 3.96)
+		(size 5.6 4.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1262626263)
+		(roundrect_rratio 0.01190476191)
 		(uuid "d6c5811c-217b-4c89-82de-bcc329e97a77")
 	)
 	(pad "1" smd rect
@@ -156,10 +156,21 @@
 	)
 	(pad "1" smd roundrect
 		(at 0 6.425)
-		(size 2.34 3.96)
+		(size 2.6 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
+		(roundrect_rratio 0.01923076923)
 		(uuid "c7efb174-004b-47c6-8e2e-757687654671")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/TheArled-s-KiCad-Library/3d_models/53TR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
