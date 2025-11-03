@@ -1,0 +1,244 @@
+(footprint "A11AH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f283b645-5b7a-43ea-871b-a64ed4f0dc92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "A11AH"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "054754a1-06da-4c08-816d-505142c29955")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d183ef0c-522c-4cd5-b2ad-7ccadea51daf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b31cc255-56d7-4ba4-82d6-e16387d98e0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 -4)
+		(end 5 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6565a98d-b2ca-40f8-a93b-6e21d3dd4df0")
+	)
+	(fp_line
+		(start -5 4.3)
+		(end -5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fc121c1-b4ce-4f03-92c3-47f96889d1c8")
+	)
+	(fp_line
+		(start -5 4.3)
+		(end -3 4.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e9468feb-d48e-4e7d-95c7-2fe50f90ca8a")
+	)
+	(fp_line
+		(start -3 4.3)
+		(end -3 8.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4484cdb4-931c-42b2-8231-ce9d79e07207")
+	)
+	(fp_line
+		(start -3 8.8)
+		(end 3 8.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f89af34b-7952-4977-bce6-7490e967cada")
+	)
+	(fp_line
+		(start 3 4.3)
+		(end 3 8.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ed791e7-f687-4160-a4ec-577af377c6e0")
+	)
+	(fp_line
+		(start 5 -4)
+		(end 5 4.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "066ac965-f54c-478c-b18f-5c976fd0ec0f")
+	)
+	(fp_line
+		(start 5 4.3)
+		(end 3 4.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "be3187b5-d8eb-4663-b984-92abb85dbc8b")
+	)
+	(fp_rect
+		(start -5.5 -6.5)
+		(end 5.5 19)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "16261eb6-78de-49f8-98d6-1b1ad087ee6c")
+	)
+	(fp_line
+		(start -1 18.8)
+		(end -0.5 8.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "ef7de317-610f-4748-a008-aacc955df1fc")
+	)
+	(fp_line
+		(start -0.5 8.8)
+		(end 0.5 8.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "03bd7f26-18e1-49f0-8b83-3c23cf8f6dd7")
+	)
+	(fp_line
+		(start 0.5 8.8)
+		(end 1 18.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "521bf977-67b2-418d-a47c-cafa9532fb43")
+	)
+	(fp_line
+		(start 1 18.8)
+		(end -1 18.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "4dbbabaf-fa6d-4575-acde-d7be92ad39b4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "22c7c1cb-c957-4dee-926d-47142d5e3c6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -2.54 0)
+		(size 1.9 1.9)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3822eeef-9613-456e-ace5-ab6bbc9bc972")
+	)
+	(pad "" thru_hole circle
+		(at 2.54 0)
+		(size 1.9 1.9)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80b69a7f-cae5-424f-bfce-045da211f5fd")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 -5.08)
+		(size 1.9 1.9)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "67d172e1-3dfc-4517-bd55-56bbfa042a54")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -5.08)
+		(size 1.9 1.9)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "77f4672c-5d3e-45ac-ac12-373657cdd1d8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/TheArled-s-KiCad-Library/3d_models/A11AH.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
