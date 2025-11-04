@@ -314,4 +314,15 @@
 		(members "2082681d-9a7e-443e-a123-dde377334c7d" "93778799-836a-47e7-bbe7-f16283f9c84c")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/TheArled-s-KiCad-Library/3d_models/MEM2075-00-140-01-A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
