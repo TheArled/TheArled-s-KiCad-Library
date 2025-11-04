@@ -241,4 +241,15 @@
 		(uuid "680d06e0-0ac5-4867-a916-3c3edcbfc00c")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/TheArled-s-KiCad-Library/3d_models/PEC16-2120F-S0012.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
